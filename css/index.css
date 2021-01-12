@@ -1,0 +1,118 @@
+/* Roboto Mono Font Styles */
+
+@font-face {
+  font-family: "Roboto Mono Bold";
+  src: url("../fonts/RobotoMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Mono Medium";
+  src: url("../fonts/RobotoMono-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Mono Light";
+  src: url("../fonts/RobotoMono-Light.ttf");
+}
+
+.google-header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.google-header > a {
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+  font-family: "Roboto Mono Light";
+}
+
+.google-header > a:hover {
+  text-decoration: underline;
+  margin: 0px 10px 0px 10px;
+  font-family: "Roboto Mono Light";
+}
+
+.google-signIn {
+  background-color: #4285f4;
+  color: #fff;
+  border: 0px;
+  border-radius: 1px;
+  padding: 0px 10px 0px 10px;
+  margin-left: 10px;
+  font-family: "Roboto Mono Bold";
+}
+.google-logo {
+  height: 150px;
+  margin-top: 100px;
+}
+.google {
+  display: grid;
+  place-items: center;
+}
+.google-search {
+  align-items: center;
+  margin: 0px 30px 0px 30px;
+  padding: 10px;
+  border: 2px solid #eaeaea;
+  border-radius: 5px;
+}
+.google-searchInput {
+  width: 350px;
+  border: none;
+  outline: none;
+}
+.google-mic {
+  height: 16px;
+}
+.google-mic:hover {
+  cursor: pointer;
+}
+.google-buttons {
+  margin-top: 25px;
+}
+.google-buttons > button {
+  background-color: #eaeaea;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Roboto Mono Medium";
+  padding: 5px;
+  margin: 0px 10px 0px 10px;
+  outline: none;
+}
+
+.google-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #eaeaea;
+}
+.google-region {
+  margin-left: 10px;
+  border-bottom: 1px solid #999999;
+  margin-top: 10px;
+}
+.google-region > p,
+.google-others > div {
+  font-family: "Roboto Mono Light";
+}
+
+.others-left {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.others-right {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.others-left > a,
+.others-right > a {
+  text-decoration: none;
+  color: #000;
+}
